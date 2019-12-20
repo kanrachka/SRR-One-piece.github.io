@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Sign in - The Colorless</title>
+
+	<meta name="keywords" content="colorless,geek,nerd,anime,manga,japan,otaku,gaming,cosplay" />
+	<meta name="google-site-verification" content="UR0fIbiNgcAeq-65d0CQC01THgXWOUKzrXhXIbQ2iYk" />
+	<meta name="alexaVerifyID" content="A8YQKgpOq2oRET3lYU58Z4n3HJQ" />
+	<meta property="og:site_name" content="The Colorless"/>
+	<meta property="fb:page_id" content="103554563030409" />
+	<meta name="verifyownership" content="e09bf2464eeddca7d4009b41cb981a0d" />
+
+	<!--[if lt IE 9]>
+		<script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>
+	<![endif]-->
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+	<link rel="stylesheet" type="text/css" href="/stylesheets/vendor/toast.css?v=d069d365209de44be665ac2f0f5f5250" /><link rel="stylesheet" type="text/css" href="/stylesheets/layout.css?v=73fe1b401237d27517704647a3f4794f" /><link rel="stylesheet" type="text/css" href="/stylesheets/vendor/font-awesome.min.css?v=797b239761f51d1990a66e645366031c" /><link rel="stylesheet" type="text/css" href="/stylesheets/vendor/code.css?v=15bb0f96f1655de9e2e022a96764bf19" />
+	<link rel="shortcut icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" href="/images/apple-touch-icon.png" />
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/apple-touch-icon-72x72.png" />
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/apple-touch-icon-114x114.png" />
+</head>
+<body>
+
+<a name="top" style="visibility:hidden"></a>
+
+<div class="container respond smallscreen">
+	<header id="header" class="row">
+		<div id="logo" class="col_3">
+			<h1><a href="/" rel="home">The Colorless</a></h1>
+		</div>
+
+		<nav class="well-tabs col_5">
+			<ul class="row">
+				<li class="active">
+					<a href="http://thecolorless.net/">Front page</a>				</li>
+
+				
+				<li>
+					<a href="http://thecolorless.net/tags">Tags</a>				</li>
+				<li>
+					<a href="http://thecolorless.net/pages/userguide">Guide</a>				</li>
+				<li>
+					<a href="http://thecolorless.net/sessions/new">Login</a>				</li>
+				<li>
+					<a href="http://thecolorless.net/users/new">Join</a>				</li>
+			</ul>
+		</nav>
+
+		<aside id="current-user" class="col_4">
+			<div>
+				
+				You are <strong>a guest</strong>
+
+							</div>
+		</aside>
+	</header><!--#header-->
+
+	<div class="row" id="header-sub"></div>
+
+
+
+
+
+		<div id="main" class="row">
+			<div class="col_8">
+				<div id="main_content">
+
+
+<form action="http://thecolorless.net/sessions/create" method="post" accept-charset="utf-8" class="pull-down">
+	<ul>
+		<li class="form-lead">
+			<h2 class="form-title">
+				Sign in
+			</h2>
+		</li>
+
+		<li>
+			<div class="form-label">
+				<label for="username">Username:</label>
+			</div>
+
+			<input type="text" class="full" id="username" name="username" value="" />
+		</li>
+
+		<li>
+			<div class="form-label">
+				<label for="password">Password:</label>
+				<em class="form-help">Did you <a href="http://thecolorless.net/sessions/iforgot">forget your password? Click here</a></em>
+			</div>
+
+			<input class="full" type="password" id="password" name="password" />
+		</li>
+
+		<li class="form-actions">
+			<input type="hidden" name="ref" value="" />
+			<button type="submit" class="button secondary">Sign in</button>
+		</li>
+	</ul>
+</form>
+<div class="landing-message">
+	<p>
+		Don't have an account yet?
+		<a href="/users/new" class="button actionary">Register for free now</a>
+	</p>
+</div>
+
+				</div><!--#main_content-->
+			</div>
+
+<!-- ######## SIDEBAR BEGINS HERE ######## -->
+
+			<aside id="sidebar" class="col_4">
+
+<!-- Basic Panel for Searches -->
+				<div class="well search">
+					<form id="searchform" action="/search" method="get" class="inline">
+						<input type="text" name="q" placeholder="Enter search terms" value="" />
+
+						<div class="search-controls">
+							<a href="javascript:;" data-search="@content">Search content</a>
+							<a href="javascript:;" data-search="@title">Search titles</a>
+						</div>
+
+					</form>
+				</div>
+<!-- Advanced Panel for Searches -->
+
+<!-- Please Join or Log In Nag Panel -->
+
+	<div class="well single-button participate">
+		<img src="/images/server_tan_rinatan_small.jpg" width="280" height="148" alt="It's free, not binding and has advantages" />
+		<a class="button secondary tooltip-pls" title="Welcome back!" href="/sessions/new">
+			Sign in
+		</a>
+	</div>
+
+
+<!-- Like/Dislike Option for Posts -->
+
+
+
+<!-- Online friends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+									
+
+
+			</aside><!--#sidebar-->
+		</div>
+
+<!-- ########### FOOTER BEGINS HERE ############ -->
+
+		<footer id="footer" class="row">
+			<section class="col_4">
+				<h4>Navigation</h4>
+				<ul class="square pages-list">
+																							<li><a href="http://thecolorless.net/pages/about">About</a></li>
+													<li><a href="http://thecolorless.net/pages/faq">FAQ</a></li>
+													<li><a href="http://thecolorless.net/pages/privacy">Privacy Policy</a></li>
+													<li><a href="http://thecolorless.net/pages/rules">Rules</a></li>
+													<li><a href="http://thecolorless.net/pages/terms">Terms of Service</a></li>
+													<li><a href="http://thecolorless.net/pages/bugreports">Report a Bug</a></li>
+													<li><a href="http://thecolorless.net/pages/userguide">User Guide</a></li>
+													<li><a href="http://thecolorless.net/pages/staff">Staff</a></li>
+															</ul>
+			</section>
+
+			<section class="col_4">
+				<h4>Support us</h4>
+				<p style="margin-bottom: 18px">If you wish to help the site, you can do so by <strong>donating</strong> using the sidebar widget.</p>
+
+				<h4>Find us elsewhere</h4>
+				<p style="margin-bottom: 18px">
+					<a href="http://twitter.com/thecolorless" rel="external nofollow">Twitter</a>
+					|
+					<a href="http://facebook.com/thecolorless" rel="external nofollow">Facebook</a>
+					|
+					<a href="http://steamcommunity.com/groups/Colorless" rel="external nofollow">Steam</a>
+				</p>
+			</section>
+
+			<section class="col_4">
+				<h4>We rock &#x2764;</h4>
+				<p>The Colorless &copy; 2010-&infin; Powered by ZeonBBS. This page was processed in 0.0558. Your IP is 109.252.85.169</p>
+        <p>
+        	<a href="/"><img src="/images/logo_30.png" alt="The Colorless" class="little-logo" width="29" height="29" /></a>
+        	<a href="http://zeonfederated.com"><img src="/images/zf_logo_32.png" alt="Zeon Federated" class="little-logo" width="30" height="29" /></a>
+        </p>
+			</section>
+		</footer>
+	</div>
+
+	<div id="back-to-top"><a href="#top">&#9650;</a></div>
+
+	<!-- JS
+	================================================== -->
+
+    <script>
+      var zeonbbs = {
+      	authd: false,
+        crsf: "95f48782ae95753f87c47a853afccc8e"
+      };
+    </script>
+
+	<script type="text/javascript" src="/javascripts/vendor/jquery.js?v=1cf4723fd6a7636733766968fa691993"></script><script type="text/javascript" src="/javascripts/vendor/bootstrap-dropdown.js?v=1cf4723fd6a7636733766968fa691993"></script><script type="text/javascript" src="/javascripts/vendor/bootstrap-modal.js?v=1cf4723fd6a7636733766968fa691993"></script><script type="text/javascript" src="/javascripts/vendor/bootstrap-tooltip.js?v=1cf4723fd6a7636733766968fa691993"></script><script type="text/javascript" src="/javascripts/advertisement.js?v=1cf4723fd6a7636733766968fa691993"></script><script type="text/javascript" src="/javascripts/board.js?v=797b239761f51d1990a66e645366031c"></script>
+			<script type="text/javascript">
+
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-7104252-6']);
+		  _gaq.push(['_setDomainName', '.thecolorless.net']);
+		  _gaq.push(['_trackPageview']);
+
+		  (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+
+		</script>
+	
+<!-- End Document
+================================================== -->
+</body>
+</html>
